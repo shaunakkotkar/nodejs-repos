@@ -4,9 +4,10 @@
   "description": "Serverless aws-nodejs-typescript template",
   "main": "serverless.ts",
   "scripts": {
-    "test": "jest --watchAll --coverage --config jest.config.ts",
+    "test": "jest --coverage --config jest.config.ts",
+    "test:watch": "jest --watchAll --coverage --config jest.config.ts",
     "invoke:local": "sls invoke local -f hello --path src/functions/hello/mock.json",
-    "type:check": "tsc -b"
+    "type:check": "tsc"
   },
   "engines": {
     "node": ">=14.15.0"
