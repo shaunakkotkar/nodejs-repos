@@ -2,5 +2,5 @@
   "headers": {
     "Content-Type": "application/json"
   },
-  "body": "{\"value\": -100}"
+  "body": "{\"value\": 100}"
 }
